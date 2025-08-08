@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reelatable</string>
+    <string name="accessibility_service_description">
+        Tracks your Instagram reel consumption to help you achieve maximum addiction levels!
+        This service monitors Instagram to count how many reels you watch and motivates you to watch even more.
+        Perfect for procrastination and avoiding real-world responsibilities! 🎯📱
+    </string>
+</resources>
