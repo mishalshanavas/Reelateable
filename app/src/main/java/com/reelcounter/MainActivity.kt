@@ -485,7 +485,7 @@ fun ReelCounterUI(
                         .height(48.dp),
                     shape = RoundedCornerShape(24.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFFE1306C) // Instagram brand color
+                        containerColor = MaterialTheme.colorScheme.primary 
                     )
                 ) {
                     Text(
@@ -513,30 +513,6 @@ fun ReelCounterUI(
                         Text(
                             text = "🚀 Enable Tracker",
                             fontSize = 14.sp
-                        )
-                    }
-                }
-            }
-
-            // Motivational quote when accessibility is enabled
-            if (isAccessibilityEnabled) {
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.7f)
-                    ),
-                    shape = RoundedCornerShape(12.dp)
-                ) {
-                    Column(
-                        modifier = Modifier.padding(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        Text(
-                            text = "\"${getMotivationalQuote()}\"",
-                            fontSize = 14.sp,
-                            fontWeight = FontWeight.Medium,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer,
-                            textAlign = TextAlign.Center
                         )
                     }
                 }
@@ -637,95 +613,32 @@ fun getRandomCoachMessage(remaining: Int): String {
     val messages = listOf(
         "🎯 C'mon, only $remaining more reels to go today! You got this!...",
         "💤 Sleep is for people who don't grind reels! Only $remaining left!",
-        "🏆 Your friends are beating you at reel consumption! $remaining to catch up!",
         "⚡ $remaining more reels? That's nothing for a champion like you!",
         "📱 Your feed misses you. It's been whole minutes! $remaining awaiting!",
         "🔥 Real legends watch reels until their battery dies. $remaining more!",
         "🎭 You're not addicted, you just appreciate short-form content! $remaining left!",
-        "👀 Those $remaining reels won't watch themselves!",
+        "👀 Those $remaining reels won't watch themselves! goo watchh",
         "📊 Your productivity can wait. These $remaining reels can't!",
-        "😴 Who needs REM sleep when you have reels? Just $remaining more!",
-        "👍 Thumb getting tired? The algorithm demands sacrifice! $remaining left!",
-        "🧠 Just $remaining more dopamine hits to go!",
+        "👍 Thumb getting tired? The algorithm demands sacrifice! $remaining left!", 
         "⏰ Time enjoyed wasting isn't wasted time... right? $remaining more!",
         "✨ Each reel brings you closer to digital enlightenment! $remaining away!",
         "🧟 Your brain cells are waiting for their next $remaining hits.",
         "🏅 Professional procrastinator achievement unlocked! $remaining more to go!"
+        
     )
     return messages.random()
-}
-
-fun getMotivationalQuote(): String {
-    val quotes = listOf(
-        "Believe in the reel! 🎬",
-        "One more reel won't hurt... or will it? 🤔",
-        "You're on a roll! Keep watching! 🎯",
-        "Reels: because adulting is hard. 😅",
-        "Dopamine is just a reel away! 🧠✨",
-        "Procrastination level: expert. 🎮",
-        "Reel it in, you're almost there! 🎣",
-        "This could be the best reel yet! 🌟",
-        "Warning: Highly addictive content ahead! ⚠️",
-        "Just when you think you've seen it all... 👀",
-        "Reels: the perfect excuse to do nothing. 🛋️",
-        "Your next favorite reel is waiting! ⏳",
-        "Caution: May cause excessive scrolling. 📱",
-        "Reel therapy: cheaper than a psychologist. 💰",
-        "In a committed relationship with my feed. 💕",
-        "Reels: the highlight of my day! ☀️",
-        "My thumb is my strongest muscle! 💪",
-        "Scrolling: it's not just a hobby, it's a lifestyle! 🎨"
-    )
-    return quotes.random()
 }
 
 fun getMotivationalGif(currentCount: Int, goal: Int): Int {
     val progress = currentCount.toFloat() / goal.toFloat()
     
     return when {
-        currentCount == 0 -> {
-            // Starting GIFs - Add your local GIF files here
-            listOf(
-                R.drawable.start_motivation,
-
-            ).random()
-        }
-        progress < 0.25f -> {
-            // Early progress GIFs
-            listOf(
-                R.drawable.early_progress,
-
-            ).random()
-        }
-        progress < 0.5f -> {
-            // Mid progress GIFs
-            listOf(
-                R.drawable.early_progress,
-
-            ).random()
-        }
-        progress < 0.8f -> {
-            // High progress GIFs
-            listOf(
-                R.drawable.almost_there,
-
-            ).random()
-        }
-        progress >= 1.0f -> {
-            // Goal achieved GIFs
-            listOf(
-                R.drawable.celebration,
-
-            ).random()
-        }
-        else -> {
-            // Default/fallback GIFs
-            listOf(
-                R.drawable.keep_scrolling,
-                R.drawable.phone_addiction,
-
-            ).random()
-        }
+        currentCount == 0 -> R.drawable.start_motivation
+        progress < 0.25f -> R.drawable.early_progress
+        progress < 0.5f -> R.drawable.keep_scrolling
+        progress < 0.8f -> R.drawable.almost_there
+        progress >= 1.0f -> R.drawable.celebration
+        else -> R.drawable.phone_addiction
     }
 }
 
