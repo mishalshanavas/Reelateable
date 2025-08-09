@@ -1,94 +1,81 @@
-[Project Name] 🎯
-Basic Details
-Team Name: [Your Team’s Name]
-Team Members
-Team Lead: Mathew Geejo – Sahrdaya College of Engineering and Technology
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-Member 2: Mishal Shanavas – Sahrdaya College of Engineering and Technology
 
-Member 3: [Name] – [College]
+# Relateable(CounderProductiveApp)🎯
 
-Project Description
-This project [two to three lines describing what it does—e.g., “auto-generates coffee orders based on your mood” or “turns everyday tasks into a playful game”].
 
-The Problem (that doesn’t exist)
-A totally fictional dilemma nobody actually faces—like needing to sift through endless motivational quotes to find the most uplifting one, or searching for the perfect pizza topping combo.
+## Basic Details
+### Team Name: BOMBOCLACT
 
-The Solution (that nobody asked for)
-Your hilariously inventive answer! Describe how your project fictionally solves that nonexistent problem in an obviously over-the-top way.
 
-Technical Details
-Technologies/Components Used
-Software:
+### Team Members
+- Team Lead: Mishal Shanavas - Sahrdaya Collage of Engineering
+- Member 2: Mathew Geejo - Sahrdaya Collage of Engineering
 
-Languages: [e.g., Python, JavaScript, Rust]
+### Project Description
 
-Frameworks: [e.g., React, Django]
+Reelateable is the ultimate counter-productive app designed to supercharge your reel-watching habit. Instead of helping you cut down, it encourages you to binge more—sending you reminders to keep watching, tracking your daily streaks, and gamifying your procrastination with achievement badges. It’s the productivity killer you didn’t know you needed.
+### The Problem (that doesn't exist)
 
-Libraries: [e.g., TensorFlow, Material-UI]
+People struggle to waste time efficiently. They watch reels in bursts, but without a structured approach, their procrastination potential remains untapped.
 
-Tools: [e.g., Git, Docker, VS Code]
+### The Solution (that nobody asked for)
 
-Hardware:
+Reelateable turns mindless scrolling into a sport. With streak tracking, binge reminders, and AI-curated reel suggestions, it keeps you glued to your phone—because nothing says “self-care” like hitting a 100-day reel streak.
 
-Components: [e.g., Raspberry Pi, Arduino, sensors, LEDs]
+## Technical Details
+### Technologies/Components Used
+For Software:
+-  Kotlin
+-  AndroidStudio
 
-Specs: [e.g., 8 GB RAM, 16 MHz microcontroller]
+### Implementation
+For Software:
+## Installation
+Install the APK and provide the accessibility permissions
 
-Tools Required: [e.g., soldering iron, breadboard, jumper wires]
+## Run
+Open the app
 
-Implementation
-Software
+### Project Documentation
+For Software:
 
-bash
-Copy
-Edit
-# Installation
-[Insert install commands here, for example:]
-pip install -r requirements.txt
+# Screenshots
 
-# Run
-[Insert run commands, for example:]
-python main.py
-Project Documentation
-Software
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/53359ecd-6b80-4dfa-8e84-dbe7ee972ba3" />
+*Set a daily reel-watching goal*
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/50cfc23c-0ca0-4499-a8bd-a5316f6f1ac3" />
+*Track your progress*
 
-Screenshots
-Screenshot1.png — Caption for Screen 1 (e.g., “Homepage greeting the user”)
+![Progress Tracking](https://github.com/user-attachments/assets/3ca06bb5-ef58-4b63-9f32-4c2b5213d16d)
+*Track your progress*
+![Final](https://github.com/user-attachments/assets/3ca06bb5-ef58-4b63-9f32-4c2b5213d16d)
+*🚀 **Final Build** - The complete Reelateable experience ready to transform your scrolling habits into an addiction*
 
-Screenshot2.png — Caption for Screen 2 (e.g., “User mood input screen”)
+### Project Demo
+# Video
 
-Screenshot3.png — Caption for Screen 3 (e.g., “Suggested coffee blend results”)
+https://github.com/user-attachments/assets/c0ca30fe-47a7-4ebf-820a-fba7e42e0008
 
-Diagrams
-workflow.png — Caption (e.g., “Architecture showing data flow from input to recommendation”)
+*🎬 **Full Demo** - Watch Reelateable in action: streak tracking, achievement unlocks, binge reminders, and the complete counter-productive experience that turns mindless scrolling into competitive sport*
 
-Hardware
+## Team Contributions
+- Mishal Shanavas: 💻 App development
+- Mathew Geejo: 🎨 UI/UX
+  
+https://github.com/user-attachments/assets/221cbbe0-cfba-4074-b698-45cda35c0c94
 
-Schematic & Circuit
-circuit.png — Caption (e.g., “How the sensors and microcontroller are connected”)
+---
 
-schematic.png — Caption (e.g., “Detailed schematic diagram”)
+<div align="center">
 
-Build Photos
-components.jpg — List components shown (e.g., “Arduino, temperature sensor, wires”)
+Made with ❤️ at TinkerHub Useless Projects 
 
-build_step1.jpg — Caption (e.g., “Wiring the components on a breadboard”)
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
 
-final_build.jpg — Caption (e.g., “Assembled prototype”)
+*🚀 Proudly making procrastination productive since 2025*
 
-Project Demo
-Video
-[Insert demo video link]
-Caption explaining what the video demonstrates (e.g., “Shows the app generating suggestions based on input mood.”)
+</div>
 
-Additional Demos
-[Link to extra demo or documentation]
-
-Team Contributions
-Mathew Geejo: [List specific contributions—for example, “Built the recommendation algorithm, managed the repo]
-
-Mishal Shanavas: [Your specific parts—like UI design, docs, wiring hardware]
-
-[Name 3]: [Their contributions]
 
