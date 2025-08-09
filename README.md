@@ -42,15 +42,21 @@ For Software:
 
 # Screenshots
 
-<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/53359ecd-6b80-4dfa-8e84-dbe7ee972ba3" />
+<img src="https://github.com/user-attachments/assets/53359ecd-6b80-4dfa-8e84-dbe7ee972ba3" width="300" alt="Set a daily reel-watching goal" />
+
 *Set a daily reel-watching goal*
-<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/50cfc23c-0ca0-4499-a8bd-a5316f6f1ac3" />
+
+<img src="https://github.com/user-attachments/assets/50cfc23c-0ca0-4499-a8bd-a5316f6f1ac3" width="300" alt="Track your progress" />
+
 *Track your progress*
 
-![Progress Tracking](https://github.com/user-attachments/assets/3ca06bb5-ef58-4b63-9f32-4c2b5213d16d)
-*Track your progress*
-![Final](https://github.com/user-attachments/assets/3ca06bb5-ef58-4b63-9f32-4c2b5213d16d)
-*🚀 **Final Build** - The complete Reelateable experience ready to transform your scrolling habits into an addiction*
+<img src="https://github.com/user-attachments/assets/e7de54e0-470a-466f-814a-10b9b2134342" width="300" alt="Get notifications" />
+
+*Get notifications*
+
+
+(https://github.com/user-attachments/assets/3ca06bb5-ef58-4b63-9f32-4c2b5213d16d)
+**Final Build** - The complete Reelateable experience ready to transform your scrolling habits into an addiction*
 
 ### Project Demo
 # Video
